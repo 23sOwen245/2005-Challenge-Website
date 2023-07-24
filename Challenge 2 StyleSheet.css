@@ -1,0 +1,514 @@
+ *{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+@font-face{
+  src: url(Font/Smooch-Regular.ttf);
+  font-family: Smooch ;
+
+}
+
+@font-face {
+  src: url(Font/RussoOne-Regular.ttf);
+  font-family: Rush;
+}
+
+@font-face {
+  font-family: ;
+  src: url();
+}
+
+
+h1, h2, h3{
+  font-weight: normal;
+}
+
+h3{ font-weight: bolder;
+  
+}
+Body{
+  background-color: #6B0303;
+margin-left: 365px;
+  font-size: 15px ;
+ font-family: Verdana, Geneva, Tahoma, sans-serif
+} 
+
+nav{
+  background-color: #16537c ;
+}
+
+footer{
+  /* display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;*/
+  color: #ffffff;
+  background-color: #044c7c ;
+  font-size: 12px;
+  line-height: 14px;
+}
+ 
+.contanier{
+  background-color: #f0f8ff;
+  border-right: 34px solid #94102a;
+ width: 775px;
+  border-left: 3px solid  #94102a;
+  border-left-width: 33px ;
+  display: grid;
+}
+
+img{
+  width: 137px;
+  height: 108px;
+  margin-bottom: 11px;
+}
+
+
+header{
+  background-color: #adadad;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+article{
+  background-color: #f0f8ff;
+  margin-bottom: 316px;
+  padding: 30px 30px;
+  display: flex;
+  gap: 95px;
+  
+}
+
+.Left-Side{
+   position: absolute;
+  left: 62px;
+  top: 9px; 
+ 
+
+} 
+
+
+.Payment-Type-Images{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.ASE-Logo{
+  width: 100px;
+  height: 150px;
+margin-bottom: 98px;
+margin-top: 26px;
+margin-left: 43px;
+}
+
+.MEDIC{
+  width: 213px;
+  height: 191px;
+position: absolute;
+margin: -134px 518px;
+}
+
+.Map{
+  width: 204px;
+  height: 182px;
+}
+
+.Link-List{
+  list-style: none;
+}
+
+.Family-Own{
+  color: #1373b3 ;
+  font-size: 30px;
+  margin-left: -50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Family-Own-2{
+  border-bottom: 1px solid #000000;
+  width: 398px;
+  color: #1373b3  ;
+  font-size: 25px; 
+  margin-left: -63px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+ margin-bottom: 10px;
+}
+a:hover{
+  color: #f3f31e;
+}
+
+.Footer-Link:hover{
+  text-decoration: underline;
+}
+
+hr{
+  height: 507px;
+  position: absolute;
+margin: -11px 275px ;
+border: 1px solid #058305;
+}
+
+h1{ 
+ color: #f9f9f9;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.McGovern{
+  font-size: 53px;
+font-family: Smooch ;
+
+}
+
+.Coupon-Text{
+  position: absolute;
+color: #f0f8ff;
+font-family: Rush ;
+text-shadow: 2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
+font-size: 25px;
+margin: -14px  -4px;
+cursor: pointer;
+}
+
+.Coupons-Button{
+  font-weight: bold;
+  font-size: 15px;
+  padding: 30px 1px;
+ display: inline-block; 
+  color: #000000;
+  background-color: #fc7c04;
+  cursor: pointer  ;
+}
+
+.Time{
+  color: #f9f9f9;
+}
+
+li{
+  margin-top: 2px;
+}
+
+.Link-List li{
+  color: #f9f9f9;
+  margin-top: 17px;
+  margin-left: 0;
+}
+
+.The-Team{
+  margin-bottom: 26px;
+  margin-left: -29px;
+
+}
+
+
+.CAR-title{
+  font-size: 25px ;
+  color: #a00b0b ;
+  margin: 18px -29px;
+}
+
+.Info-1{
+   margin: 16px 24px;
+}
+
+.Info-2{
+  margin: -5px -22px;
+} 
+
+h2{
+  font-family: Rush;
+  font-size: 25px;
+color: #2c75a5;
+  text-shadow: 1px 0 black, 0 2px black, 2px 0 black, 0 1px black;
+ 
+}
+
+.stop-by{
+margin: 20px;
+}
+
+.Hour{
+margin-bottom: 21px;
+}
+
+.Payment-Images{
+margin: -61px 34px;
+}
+
+.Coupon-Body{
+  margin-bottom: 24px;
+}
+
+.VISA-Logo{
+  width: 139px;
+  height: 130px;
+  margin-bottom: -13px;
+}
+
+.American-Express-Logo{
+  border-radius: 35px;
+  height: 140px;
+}
+
+footer a{
+margin-left:  6px;
+margin-right: 6px;
+} 
+
+.Discover-Logo{
+  border-radius: 23px;
+}
+
+.Click-Map{
+  font-style: italic;
+  font-size: 10px;
+}
+
+
+/* Put the Style Code for the Coupon Page Below */
+
+.Coupon-Artical{
+flex-direction: column;
+gap: 0;
+}
+
+
+.Coupon-1{
+margin-top: 20px;
+  width: 278px;
+  height: 305px;
+}
+
+.Coupon-2{
+ position: absolute;
+   margin: 34px 312px;
+  width: 300px;
+  height: 513px;
+
+}
+/* End of style for the Cupon page. Below style for Auto Tips page */
+
+.Auto-Article{
+flex-direction: column;
+ margin-top: 35px; 
+}
+
+.Auto-Text h2{
+  margin-bottom: 15px;
+}
+.Auto-Text h3{
+  margin-bottom: 3px ;
+}
+/* End of style for The Auto Tips Page. Below style for The Services Page  */
+
+.Services-Text h2{
+margin-bottom: -78px;
+}
+
+.Services-Text p{
+  margin-bottom: -74px;
+}
+
+.Services-Text h3{
+  margin-bottom: -80px;
+}
+
+.Services-Text ul{
+  margin-left: 46px;
+}
+/* End of style for The Services Page. Below style For the Webpage's Made By Creator Page   */
+
+.Other-Webpage-hr{
+height: 1049px;
+margin: -16px 290px;
+}
+
+.About-Creater{
+  margin-top: 13px;
+  margin-left: -17px;
+}
+
+.About-Creater h2{
+  margin-bottom: 13px;
+}
+
+.About-Creater p{
+  margin-top: -2px;
+  margin-bottom: 16px;
+}
+
+.About-Creater img{
+  border-radius: 34px;
+  width: 270px;
+  height: 234px;
+}
+
+.Webpage-Images p{
+  margin-bottom: 60px;
+}
+
+
+.WebPages{
+  margin-top: 13px;
+  margin-left: -17px;
+}
+
+.WebPages h2{
+margin-bottom: 8px;
+}
+
+.WebPages h3{
+  margin-bottom: 40px;
+  font-size: 12px;
+}
+
+.Webpage-Images{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Click-img{
+  font-size: 15px;
+}
+
+.WebCtz-Logo{
+  border-radius: 54px;
+width: 265px;
+height: 125px;
+}
+.There-The-Brand-New{
+  border-radius: 54px;
+width: 231px;
+height: 222px;
+}
+
+.Anime-Club{
+  border-radius: 27px;
+  width: 225px;
+  height: 277px
+}
+
+.Webpage-Images a{
+  margin-bottom: -7px;
+}
+
+#Last-Surpise{
+  width: 39px;
+  height: 44px;
+position: absolute;
+margin: -428px 1880px;
+transform: rotate(14deg);
+}
+
+.Creater-Artical{
+  margin-bottom: 270px;
+}
+
+/* End of style for The  Webpage's Made By Creator Page Page. Below style For The Contact Us page */
+
+.Contact-Article{
+display: grid;
+grid-template-columns: 221px 0;
+}
+
+.Bigger-Map{
+  border-top: 1px solid #000000;
+  margin-top: 42px;
+width: 637px;
+   display: flex;
+  flex-direction: column;
+  align-items: center; 
+  flex-wrap: wrap;
+}
+
+.Contact-Map{
+  border:  1px solid #000000;
+  width: 632px;
+  height: 536px;
+}
+.Bigger-Map h3{
+  font-size: 25px ;
+  color: #a00b0b ;
+}
+
+.Bigger-Map em{
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.Contact-Info h2{
+  margin-bottom: 20px;
+}
+
+.Left-info{
+  margin-bottom: 20px;
+}
+
+.Left-info:last-child{
+  margin-bottom: 83px;
+}
+
+.Contact-Hr{
+  height: 431px;
+ margin-top: -19px;
+}
+
+.Contact-Text-Box{
+  border:  2px dashed #CCCCCCCC;
+  background-color: #f5f5ce;
+  width: 332px;
+  height: 375px;
+}
+
+textarea{
+ padding: 47px 70px;
+ outline: none;
+} 
+.Text-Boxs{
+margin: 10px 7px;
+}
+
+.Text-Box-Reset{
+margin: 0 82px;
+}
+
+.Text-Box-Submit{
+  margin: -20px 20px;
+
+}
+
+.Text-Box-Warning{
+  margin: 30px 0;
+  font-weight: bold;
+  font-size: 9px;
+  font-style: italic;
+}
+
+.Text-Box-Heading{
+margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Text-Box-Heading h3{
+  color: #08428d;
+}
+
+.Text-Box-Heading em{
+  font-size: 10px;
+}
+
